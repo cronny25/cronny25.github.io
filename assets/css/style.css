@@ -253,8 +253,10 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 72px;
   color: #fff;
+  text-shadow: 1px 0 #000, -1px 0 #fff, 0 2px #fff, 0 -2px #000,
+               1px 1px #fff, -1px -1px #000, 1px -1px #fff, -1px 1px #000;
 }
 
 #hero p {
@@ -558,6 +560,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  height: 220px;
 }
 
 .portfolio .portfolio-wrap::before {
